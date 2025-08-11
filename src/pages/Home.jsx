@@ -119,16 +119,6 @@ export default function Home() {
             </div>
 
 
-            {/* <div className="absolute bottom-20 left-40 z-20">
-              <div className="flex">
-                <div className="animate-bounce">
-                  <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 16l-6-6h12l-6 6z" />
-                  </svg>
-                </div>
-              </div>
-            </div> */}
-
 
           </section>
 
@@ -186,9 +176,6 @@ export default function Home() {
             </div>
           </section>
         </div>
-
-
-
 
         <section className="text-white w-full bg-[#0085c3]">
           {/* Desktop Layout - Unchanged */}
@@ -524,9 +511,9 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Mobile Layout - Separate Header and Cards */}
+          {/* Mobile Layout - Optimized Spacing */}
           <div className="lg:hidden">
-            {/* Mobile "How We Help" Section - SEPARATE and ALWAYS VISIBLE */}
+            {/* Mobile "How We Help" Section */}
             <div className="px-6 py-12 bg-gradient-to-br from-gray-50 to-white">
               <div className="text-center max-w-2xl mx-auto">
                 <h1 className="text-3xl sm:text-4xl font-bold tracking-tight leading-[110%] mb-6">
@@ -558,10 +545,10 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Mobile Service Cards Container - SEPARATE with Sticky Effects */}
+            {/* Mobile Service Cards Container - Optimized Height */}
             <div className="relative">
               {/* Service 1 - Custom Website Development */}
-              <section className="sticky top-0 h-screen flex items-center justify-center z-20 px-4">
+              <section className="sticky top-0 min-h-[60vh] flex items-center justify-center z-20 px-4 py-16">
                 <article className="relative h-80 w-full max-w-[22rem] mx-auto rounded-2xl rotate-1 hover:rotate-0 p-6 flex flex-col items-center justify-center gap-4 transition-all duration-500 shadow-xl hover:shadow-2xl group overflow-hidden">
                   <div
                     className="absolute inset-0 bg-cover bg-center"
@@ -589,7 +576,7 @@ export default function Home() {
               </section>
 
               {/* Service 2 - E-commerce Solutions */}
-              <section className="sticky top-0 h-screen flex items-center justify-center z-30 px-4">
+              <section className="sticky top-0 min-h-[60vh] flex items-center justify-center z-30 px-4 py-16">
                 <article className="relative h-80 w-full max-w-[22rem] mx-auto rounded-2xl -rotate-1 hover:rotate-0 p-6 flex flex-col items-center justify-center gap-4 transition-all duration-500 shadow-xl hover:shadow-2xl group overflow-hidden">
                   <div
                     className="absolute inset-0 bg-cover bg-center"
@@ -617,7 +604,7 @@ export default function Home() {
               </section>
 
               {/* Service 3 - Website Maintenance */}
-              <section className="sticky top-0 h-screen flex items-center justify-center z-40 px-4">
+              <section className="sticky top-0 min-h-[60vh] flex items-center justify-center z-40 px-4 py-16">
                 <article className="relative h-80 w-full max-w-[22rem] mx-auto rounded-2xl rotate-1 hover:rotate-0 p-6 flex flex-col items-center justify-center gap-4 transition-all duration-500 shadow-xl hover:shadow-2xl group overflow-hidden">
                   <div
                     className="absolute inset-0 bg-cover bg-center"
@@ -646,7 +633,7 @@ export default function Home() {
               </section>
 
               {/* Service 4 - Digital Business Guidance */}
-              <section className="sticky top-0 h-screen flex items-center justify-center z-50 px-4">
+              <section className="sticky top-0 min-h-[60vh] flex items-center justify-center z-50 px-4 py-16">
                 <article className="relative h-80 w-full max-w-[22rem] mx-auto rounded-2xl -rotate-1 hover:rotate-0 p-6 flex flex-col items-center justify-center gap-4 transition-all duration-500 shadow-xl hover:shadow-2xl group overflow-hidden">
                   <div
                     className="absolute inset-0 bg-cover bg-center"
@@ -673,8 +660,8 @@ export default function Home() {
                 </article>
               </section>
 
-              {/* Add spacing at the end for proper scroll completion */}
-              <div className="h-screen"></div>
+              {/* Reduced spacing at the end */}
+              <div className="h-32"></div>
             </div>
           </div>
         </section>
