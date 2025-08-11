@@ -368,312 +368,306 @@ export default function Home() {
 
 
 
-        <section className="text-gray-900 w-full bg-white">
-          {/* Desktop Layout - Unchanged */}
-          <div className="hidden lg:flex justify-between px-40">
-            <div className="grid gap-2">
-              <figure className="sticky top-0 h-screen grid place-content-center">
-                <article className="relative h-80 w-full max-w-[30rem] rounded-2xl rotate-3 hover:rotate-0 p-8 grid place-content-center gap-6 transition-all duration-500 shadow-2xl hover:shadow-3xl group overflow-hidden">
-                  <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{
-                      backgroundImage: `url(${s1})`
-                    }}
-                  ></div>
-                  <div className="absolute inset-0 bg-gradient-to-br from-[#0085c3]/90 to-[#006b9f]/95"></div>
+   <section className="text-gray-900 w-full bg-white">
+  {/* Desktop Layout - Unchanged */}
+  <div className="hidden lg:flex justify-between px-40">
+    <div className="grid gap-2">
+      <figure className="sticky top-0 h-screen grid place-content-center">
+        <article className="relative h-80 w-full max-w-[30rem] rounded-2xl rotate-3 hover:rotate-0 p-8 grid place-content-center gap-6 transition-all duration-500 shadow-2xl hover:shadow-3xl group overflow-hidden">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `url(${s1})`
+            }}
+          ></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-[#0085c3]/90 to-[#006b9f]/95"></div>
 
-                  <div className="text-center space-y-4 relative z-10">
-                    <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                      </svg>
-                    </div>
-                    <h1 className="text-2xl font-bold text-white">Custom Website Development</h1>
-                    <p className="text-white/90 leading-relaxed">
-                      We build unique websites from scratch, designed specifically for your business goals. Clean code, modern design, and built to grow with your business.
-                    </p>
-                    <button className="w-fit bg-white text-[#0085c3] font-semibold py-3 px-6 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105">
-                      Learn More
-                    </button>
-                  </div>
-                </article>
-              </figure>
-
-              <figure className="sticky top-0 h-screen grid place-content-center">
-                <article className="relative h-80 w-full max-w-[30rem] rounded-2xl -rotate-2 hover:rotate-0 p-8 grid place-content-center gap-6 transition-all duration-500 shadow-2xl hover:shadow-3xl group overflow-hidden">
-                  <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{
-                      backgroundImage: `url(${s2})`
-                    }}
-                  ></div>
-                  <div className="absolute inset-0 bg-gradient-to-br from-slate-700/90 to-slate-900/95"></div>
-
-                  <div className="text-center space-y-4 relative z-10">
-                    <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.5 5M7 13l-1.5 5m0 0h9m-9 0L17 18" />
-                      </svg>
-                    </div>
-                    <h1 className="text-2xl font-bold text-white">Online Store Solutions</h1>
-                    <p className="text-white/90 leading-relaxed">
-                      We create powerful e-commerce platforms that make selling online simple. Easy inventory management, secure payments, and mobile-friendly design.
-                    </p>
-                    <button className="w-fit bg-white text-slate-700 font-semibold py-3 px-6 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105">
-                      Explore Options
-                    </button>
-                  </div>
-                </article>
-              </figure>
-
-              <figure className="sticky top-0 h-screen grid place-content-center">
-                <article className="relative h-80 w-full max-w-[30rem] rounded-2xl rotate-2 hover:rotate-0 p-8 grid place-content-center gap-6 transition-all duration-500 shadow-2xl hover:shadow-3xl group overflow-hidden">
-                  <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{
-                      backgroundImage: `url(${a1})`
-                    }}
-                  ></div>
-                  <div className="absolute inset-0 bg-gradient-to-br from-sky-500/90 to-blue-600/95"></div>
-
-                  <div className="text-center space-y-4 relative z-10">
-                    <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                      </svg>
-                    </div>
-                    <h1 className="text-2xl font-bold text-white">Website Care & Maintenance</h1>
-                    <p className="text-white/90 leading-relaxed">
-                      We keep your website running smoothly with regular updates, security monitoring, and quick fixes. Your website stays fast, secure, and always up-to-date.
-                    </p>
-                    <button className="w-fit bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105">
-                      Get Support
-                    </button>
-                  </div>
-                </article>
-              </figure>
-
-              <figure className="sticky top-0 h-screen grid place-content-center">
-                <article className="relative h-80 w-full max-w-[30rem] rounded-2xl -rotate-1 hover:rotate-0 p-8 grid place-content-center gap-6 transition-all duration-500 shadow-2xl hover:shadow-3xl group overflow-hidden">
-                  <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{
-                      backgroundImage: `url(${s3})`
-                    }}
-                  ></div>
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-800/90 to-indigo-900/95"></div>
-
-                  <div className="text-center space-y-4 relative z-10">
-                    <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                      </svg>
-                    </div>
-                    <h1 className="text-2xl font-bold text-white">Digital Business Guidance</h1>
-                    <p className="text-white/90 leading-relaxed">
-                      We help you understand what your business needs online and create a clear plan to achieve your digital goals. No confusing tech talk, just honest advice.
-                    </p>
-                    <button className="w-fit bg-white text-indigo-800 font-semibold py-3 px-6 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105">
-                      Get Guidance
-                    </button>
-                  </div>
-                </article>
-              </figure>
+          <div className="text-center space-y-4 relative z-10">
+            <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+              </svg>
             </div>
-
-            <div className="sticky top-0 h-screen grid place-content-center lg:ml-12">
-              <div className="text-center lg:text-left max-w-lg">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[110%] mb-6">
-                  <span className="block text-[#0085c3] mb-2">How We Help</span>
-                  <span className="block text-gray-900">Your Business Grow</span>
-                </h1>
-
-                <div className="mt-8 space-y-6">
-                  <p className="text-xl text-gray-600 leading-relaxed">
-                    Every business has unique needs. We listen to your goals and create digital solutions that actually work for your specific situation.
-                  </p>
-
-                  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
-                    <button className="relative inline-flex items-center justify-center bg-[#0085c3] hover:bg-[#006299] text-white font-semibold py-4 px-8 rounded-lg shadow-md hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-[#0085c3]/30 transition-all duration-300 transform">
-                      <a href="tel:+919025344010">
-                        <span className="mr-2">Start Your Free Consultation</span>
-                      </a>
-                    </button>
-
-                    <button onClick={() => navigate('/contact')} className="relative inline-flex items-center justify-center border-2 border-[#0085c3] text-[#0085c3] font-semibold py-4 px-10 rounded-lg overflow-hidden group hover:text-white focus:outline-none focus:ring-4 focus:ring-[#0085c3]/30 transition-all duration-300">
-                      <span className="absolute inset-0 bg-[#0085c3] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></span>
-                      <span className="relative mr-2">Contact Now</span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <h1 className="text-2xl font-bold text-white">Custom Website Development</h1>
+            <p className="text-white/90 leading-relaxed">
+              We build unique websites from scratch, designed specifically for your business goals. Clean code, modern design, and built to grow with your business.
+            </p>
+            <button className="w-fit bg-white text-[#0085c3] font-semibold py-3 px-6 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105">
+              Learn More
+            </button>
           </div>
+        </article>
+      </figure>
 
-          {/* Mobile Layout - Optimized Spacing */}
-          <div className="lg:hidden">
-            {/* Mobile "How We Help" Section */}
-            <div className="px-6 py-12 bg-gradient-to-br from-gray-50 to-white">
-              <div className="text-center max-w-2xl mx-auto">
-                <h1 className="text-3xl sm:text-4xl font-bold tracking-tight leading-[110%] mb-6">
-                  <span className="block text-[#0085c3] mb-2">How We Help</span>
-                  <span className="block text-gray-900">Your Business Grow</span>
-                </h1>
+      <figure className="sticky top-0 h-screen grid place-content-center">
+        <article className="relative h-80 w-full max-w-[30rem] rounded-2xl -rotate-2 hover:rotate-0 p-8 grid place-content-center gap-6 transition-all duration-500 shadow-2xl hover:shadow-3xl group overflow-hidden">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `url(${s2})`
+            }}
+          ></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-slate-700/90 to-slate-900/95"></div>
 
-                <div className="mt-6 space-y-6">
-                  <p className="text-lg text-gray-600 leading-relaxed">
-                    Every business has unique needs. We listen to your goals and create digital solutions that actually work for your specific situation.
-                  </p>
-
-                  <div className="grid grid-cols-2 gap-3 sm:gap-4 mt-8">
-                    <button className="w-full relative inline-flex items-center justify-center bg-[#0085c3] hover:bg-[#006299] text-white font-semibold py-3 sm:py-4 px-4 sm:px-6 rounded-lg shadow-md hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-[#0085c3]/30 transition-all duration-300">
-                      <a href="tel:+919025344010" className="text-center">
-                        <span className="text-sm sm:text-base">
-                          <span className="block sm:hidden">Get Started</span>
-                          <span className="hidden sm:block">Start Free Consultation</span>
-                        </span>
-                      </a>
-                    </button>
-
-                    <button onClick={() => navigate('/contact')} className="w-full relative inline-flex items-center justify-center border-2 border-[#0085c3] text-[#0085c3] font-semibold py-3 sm:py-4 px-4 sm:px-6 rounded-lg overflow-hidden group hover:text-white focus:outline-none focus:ring-4 focus:ring-[#0085c3]/30 transition-all duration-300">
-                      <span className="absolute inset-0 bg-[#0085c3] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></span>
-                      <span className="relative text-sm sm:text-base">Contact Now</span>
-                    </button>
-                  </div>
-                </div>
-              </div>
+          <div className="text-center space-y-4 relative z-10">
+            <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.5 5M7 13l-1.5 5m0 0h9m-9 0L17 18" />
+              </svg>
             </div>
-
-            {/* Mobile Service Cards Container - Optimized Height */}
-            <div className="relative">
-              {/* Service 1 - Custom Website Development */}
-              <section className="sticky top-0 min-h-[60vh] flex items-center justify-center z-20 px-4 py-16">
-                <article className="relative h-80 w-full max-w-[22rem] mx-auto rounded-2xl rotate-1 hover:rotate-0 p-6 flex flex-col items-center justify-center gap-4 transition-all duration-500 shadow-xl hover:shadow-2xl group overflow-hidden">
-                  <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{
-                      backgroundImage: `url(${s1})`
-                    }}
-                  ></div>
-                  <div className="absolute inset-0 bg-gradient-to-br from-[#0085c3]/90 to-[#006b9f]/95"></div>
-
-                  <div className="text-center space-y-3 relative z-10">
-                    <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                      <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                      </svg>
-                    </div>
-                    <h1 className="text-xl font-bold text-white">Custom Website Development</h1>
-                    <p className="text-white/90 leading-relaxed text-sm">
-                      We build unique websites from scratch, designed specifically for your business goals. Clean code, modern design, and built to grow with your business.
-                    </p>
-                    <button onClick={() => navigate('/contact')} className="w-fit bg-white text-[#0085c3] font-semibold py-2 px-5 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105 text-sm">
-                      Learn More
-                    </button>
-                  </div>
-                </article>
-              </section>
-
-              {/* Service 2 - E-commerce Solutions */}
-              <section className="sticky top-0 min-h-[60vh] flex items-center justify-center z-30 px-4 py-16">
-                <article className="relative h-80 w-full max-w-[22rem] mx-auto rounded-2xl -rotate-1 hover:rotate-0 p-6 flex flex-col items-center justify-center gap-4 transition-all duration-500 shadow-xl hover:shadow-2xl group overflow-hidden">
-                  <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{
-                      backgroundImage: `url(${s2})`
-                    }}
-                  ></div>
-                  <div className="absolute inset-0 bg-gradient-to-br from-slate-700/90 to-slate-900/95"></div>
-
-                  <div className="text-center space-y-3 relative z-10">
-                    <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                      <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.5 5M7 13l-1.5 5m0 0h9m-9 0L17 18" />
-                      </svg>
-                    </div>
-                    <h1 className="text-xl font-bold text-white">Online Store Solutions</h1>
-                    <p className="text-white/90 leading-relaxed text-sm">
-                      We create powerful e-commerce platforms that make selling online simple. Easy inventory management, secure payments, and mobile-friendly design.
-                    </p>
-                    <button onClick={() => navigate('/contact')} className="w-fit bg-white text-slate-700 font-semibold py-2 px-5 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105 text-sm">
-                      Explore Options
-                    </button>
-                  </div>
-                </article>
-              </section>
-
-              {/* Service 3 - Website Maintenance */}
-              <section className="sticky top-0 min-h-[60vh] flex items-center justify-center z-40 px-4 py-16">
-                <article className="relative h-80 w-full max-w-[22rem] mx-auto rounded-2xl rotate-1 hover:rotate-0 p-6 flex flex-col items-center justify-center gap-4 transition-all duration-500 shadow-xl hover:shadow-2xl group overflow-hidden">
-                  <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{
-                      backgroundImage: `url(${a1})`
-                    }}
-                  ></div>
-                  <div className="absolute inset-0 bg-gradient-to-br from-sky-500/90 to-blue-600/95"></div>
-
-                  <div className="text-center space-y-3 relative z-10">
-                    <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                      <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                      </svg>
-                    </div>
-                    <h1 className="text-xl font-bold text-white">Website Care & Maintenance</h1>
-                    <p className="text-white/90 leading-relaxed text-sm">
-                      We keep your website running smoothly with regular updates, security monitoring, and quick fixes. Your website stays fast, secure, and always up-to-date.
-                    </p>
-                    <button onClick={() => navigate('/contact')} className="w-fit bg-white text-blue-600 font-semibold py-2 px-5 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105 text-sm">
-                      Get Support
-                    </button>
-                  </div>
-                </article>
-              </section>
-
-              {/* Service 4 - Digital Business Guidance */}
-              <section className="sticky top-0 min-h-[60vh] flex items-center justify-center z-50 px-4 py-16">
-                <article className="relative h-80 w-full max-w-[22rem] mx-auto rounded-2xl -rotate-1 hover:rotate-0 p-6 flex flex-col items-center justify-center gap-4 transition-all duration-500 shadow-xl hover:shadow-2xl group overflow-hidden">
-                  <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{
-                      backgroundImage: `url(${s3})`
-                    }}
-                  ></div>
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-800/90 to-indigo-900/95"></div>
-
-                  <div className="text-center space-y-3 relative z-10">
-                    <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                      <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                      </svg>
-                    </div>
-                    <h1 className="text-xl font-bold text-white">Digital Business Guidance</h1>
-                    <p className="text-white/90 leading-relaxed text-sm">
-                      We help you understand what your business needs online and create a clear plan to achieve your digital goals. No confusing tech talk, just honest advice.
-                    </p>
-                    <button onClick={() => navigate('/contact')} className="w-fit bg-white text-indigo-800 font-semibold py-2 px-5 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105 text-sm">
-                      Get Guidance
-                    </button>
-                  </div>
-                </article>
-              </section>
-
-              {/* Reduced spacing at the end */}
-              <div className="h-32"></div>
-            </div>
+            <h1 className="text-2xl font-bold text-white">Online Store Solutions</h1>
+            <p className="text-white/90 leading-relaxed">
+              We create powerful e-commerce platforms that make selling online simple. Easy inventory management, secure payments, and mobile-friendly design.
+            </p>
+            <button className="w-fit bg-white text-slate-700 font-semibold py-3 px-6 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105">
+              Explore Options
+            </button>
           </div>
-        </section>
+        </article>
+      </figure>
 
+      <figure className="sticky top-0 h-screen grid place-content-center">
+        <article className="relative h-80 w-full max-w-[30rem] rounded-2xl rotate-2 hover:rotate-0 p-8 grid place-content-center gap-6 transition-all duration-500 shadow-2xl hover:shadow-3xl group overflow-hidden">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `url(${a1})`
+            }}
+          ></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-sky-500/90 to-blue-600/95"></div>
+
+          <div className="text-center space-y-4 relative z-10">
+            <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+            </div>
+            <h1 className="text-2xl font-bold text-white">Website Care & Maintenance</h1>
+            <p className="text-white/90 leading-relaxed">
+              We keep your website running smoothly with regular updates, security monitoring, and quick fixes. Your website stays fast, secure, and always up-to-date.
+            </p>
+            <button className="w-fit bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105">
+              Get Support
+            </button>
+          </div>
+        </article>
+      </figure>
+
+      <figure className="sticky top-0 h-screen grid place-content-center">
+        <article className="relative h-80 w-full max-w-[30rem] rounded-2xl -rotate-1 hover:rotate-0 p-8 grid place-content-center gap-6 transition-all duration-500 shadow-2xl hover:shadow-3xl group overflow-hidden">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `url(${s3})`
+            }}
+          ></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-800/90 to-indigo-900/95"></div>
+
+          <div className="text-center space-y-4 relative z-10">
+            <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+              </svg>
+            </div>
+            <h1 className="text-2xl font-bold text-white">Digital Business Guidance</h1>
+            <p className="text-white/90 leading-relaxed">
+              We help you understand what your business needs online and create a clear plan to achieve your digital goals. No confusing tech talk, just honest advice.
+            </p>
+            <button className="w-fit bg-white text-indigo-800 font-semibold py-3 px-6 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105">
+              Get Guidance
+            </button>
+          </div>
+        </article>
+      </figure>
+    </div>
+
+    <div className="sticky top-0 h-screen grid place-content-center lg:ml-12">
+      <div className="text-center lg:text-left max-w-lg">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[110%] mb-6">
+          <span className="block text-[#0085c3] mb-2">How We Help</span>
+          <span className="block text-gray-900">Your Business Grow</span>
+        </h1>
+
+        <div className="mt-8 space-y-6">
+          <p className="text-xl text-gray-600 leading-relaxed">
+            Every business has unique needs. We listen to your goals and create digital solutions that actually work for your specific situation.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
+            <button className="relative inline-flex items-center justify-center bg-[#0085c3] hover:bg-[#006299] text-white font-semibold py-4 px-8 rounded-lg shadow-md hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-[#0085c3]/30 transition-all duration-300 transform">
+              <a href="tel:+919025344010">
+                <span className="mr-2">Start Your Free Consultation</span>
+              </a>
+            </button>
+
+            <button onClick={() => navigate('/contact')} className="relative inline-flex items-center justify-center border-2 border-[#0085c3] text-[#0085c3] font-semibold py-4 px-10 rounded-lg overflow-hidden group hover:text-white focus:outline-none focus:ring-4 focus:ring-[#0085c3]/30 transition-all duration-300">
+              <span className="absolute inset-0 bg-[#0085c3] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></span>
+              <span className="relative mr-2">Contact Now</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Mobile Layout - Optimized Spacing */}
+  <div className="lg:hidden">
+    {/* Mobile "How We Help" Section */}
+    <div className="px-6 py-12 bg-gradient-to-br from-gray-50 to-white">
+      <div className="text-center max-w-2xl mx-auto">
+        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight leading-[110%] mb-6">
+          <span className="block text-[#0085c3] mb-2">How We Help</span>
+          <span className="block text-gray-900">Your Business Grow</span>
+        </h1>
+
+        <div className="mt-6 space-y-6">
+          <p className="text-lg text-gray-600 leading-relaxed">
+            Every business has unique needs. We listen to your goals and create digital solutions that actually work for your specific situation.
+          </p>
+
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 mt-8">
+            <button className="w-full relative inline-flex items-center justify-center bg-[#0085c3] hover:bg-[#006299] text-white font-semibold py-3 sm:py-4 px-4 sm:px-6 rounded-lg shadow-md hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-[#0085c3]/30 transition-all duration-300">
+              <a href="tel:+919025344010" className="text-center">
+                <span className="text-sm sm:text-base">
+                  <span className="block sm:hidden">Get Started</span>
+                  <span className="hidden sm:block">Start Free Consultation</span>
+                </span>
+              </a>
+            </button>
+
+            <button onClick={() => navigate('/contact')} className="w-full relative inline-flex items-center justify-center border-2 border-[#0085c3] text-[#0085c3] font-semibold py-3 sm:py-4 px-4 sm:px-6 rounded-lg overflow-hidden group hover:text-white focus:outline-none focus:ring-4 focus:ring-[#0085c3]/30 transition-all duration-300">
+              <span className="absolute inset-0 bg-[#0085c3] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></span>
+              <span className="relative text-sm sm:text-base">Contact Now</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* Mobile Service Cards Container - Optimized Height */}
+    <div className="relative">
+      {/* Service 1 - Custom Website Development */}
+      <section className="sticky top-0 min-h-[60vh] flex items-center justify-center z-1 px-4 py-16">
+        <article className="relative h-80 w-full max-w-[22rem] mx-auto rounded-2xl rotate-1 hover:rotate-0 p-6 flex flex-col items-center justify-center gap-4 transition-all duration-500 shadow-xl hover:shadow-2xl group overflow-hidden">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `url(${s1})`
+            }}
+          ></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-[#0085c3]/90 to-[#006b9f]/95"></div>
+
+          <div className="text-center space-y-3 relative z-10">
+            <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
+              <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+              </svg>
+            </div>
+            <h1 className="text-xl font-bold text-white">Custom Website Development</h1>
+            <p className="text-white/90 leading-relaxed text-sm">
+              We build unique websites from scratch, designed specifically for your business goals. Clean code, modern design, and built to grow with your business.
+            </p>
+            <button onClick={() => navigate('/contact')} className="w-fit bg-white text-[#0085c3] font-semibold py-2 px-5 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105 text-sm">
+              Learn More
+            </button>
+          </div>
+        </article>
+      </section>
+
+      {/* Service 2 - E-commerce Solutions */}
+      <section className="sticky top-0 min-h-[60vh] flex items-center justify-center z-1 px-4 py-16">
+        <article className="relative h-80 w-full max-w-[22rem] mx-auto rounded-2xl -rotate-1 hover:rotate-0 p-6 flex flex-col items-center justify-center gap-4 transition-all duration-500 shadow-xl hover:shadow-2xl group overflow-hidden">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `url(${s2})`
+            }}
+          ></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-slate-700/90 to-slate-900/95"></div>
+
+          <div className="text-center space-y-3 relative z-10">
+            <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
+              <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.5 5M7 13l-1.5 5m0 0h9m-9 0L17 18" />
+              </svg>
+            </div>
+            <h1 className="text-xl font-bold text-white">Online Store Solutions</h1>
+            <p className="text-white/90 leading-relaxed text-sm">
+              We create powerful e-commerce platforms that make selling online simple. Easy inventory management, secure payments, and mobile-friendly design.
+            </p>
+            <button onClick={() => navigate('/contact')} className="w-fit bg-white text-slate-700 font-semibold py-2 px-5 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105 text-sm">
+              Explore Options
+            </button>
+          </div>
+        </article>
+      </section>
+
+      {/* Service 3 - Website Maintenance */}
+      <section className="sticky top-0 min-h-[60vh] flex items-center justify-center z-1 px-4 py-16">
+        <article className="relative h-80 w-full max-w-[22rem] mx-auto rounded-2xl rotate-1 hover:rotate-0 p-6 flex flex-col items-center justify-center gap-4 transition-all duration-500 shadow-xl hover:shadow-2xl group overflow-hidden">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `url(${a1})`
+            }}
+          ></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-sky-500/90 to-blue-600/95"></div>
+
+          <div className="text-center space-y-3 relative z-10">
+            <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
+              <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+            </div>
+            <h1 className="text-xl font-bold text-white">Website Care & Maintenance</h1>
+            <p className="text-white/90 leading-relaxed text-sm">
+              We keep your website running smoothly with regular updates, security monitoring, and quick fixes. Your website stays fast, secure, and always up-to-date.
+            </p>
+            <button onClick={() => navigate('/contact')} className="w-fit bg-white text-blue-600 font-semibold py-2 px-5 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105 text-sm">
+              Get Support
+            </button>
+          </div>
+        </article>
+      </section>
+
+      {/* Service 4 - Digital Business Guidance */}
+      <section className="sticky top-0 min-h-[60vh] flex items-center justify-center z-1 px-4 py-16">
+        <article className="relative h-80 w-full max-w-[22rem] mx-auto rounded-2xl -rotate-1 hover:rotate-0 p-6 flex flex-col items-center justify-center gap-4 transition-all duration-500 shadow-xl hover:shadow-2xl group overflow-hidden">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `url(${s3})`
+            }}
+          ></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-800/90 to-indigo-900/95"></div>
+
+          <div className="text-center space-y-3 relative z-10">
+            <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
+              <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+              </svg>
+            </div>
+            <h1 className="text-xl font-bold text-white">Digital Business Guidance</h1>
+            <p className="text-white/90 leading-relaxed text-sm">
+              We help you understand what your business needs online and create a clear plan to achieve your digital goals. No confusing tech talk, just honest advice.
+            </p>
+            <button onClick={() => navigate('/contact')} className="w-fit bg-white text-indigo-800 font-semibold py-2 px-5 rounded-lg hover:bg-white/90 transition-all duration-300 group-hover:scale-105 text-sm">
+              Get Guidance
+            </button>
+          </div>
+        </article>
+      </section>
+
+      {/* Reduced spacing at the end */}
+      <div className="h-32"></div>
+    </div>
+  </div>
+</section>
 
 
         <BusinessInfoTabs />
-
-
-
-
-
 
 
       </main>
